@@ -7,7 +7,7 @@ public class CommissionCalculator {
     public static void main(String[] args) {
 
         // number of sales persons   
-        final int salesPeople = 2;
+        final int salesPeople = 4;
 
         //Creates and arraylist of SalePerson
         ArrayList < SalesPerson > arrayPerson = new ArrayList < > (salesPeople);
@@ -59,6 +59,9 @@ public class CommissionCalculator {
         // declare difference between the highest and lowest seller
 
         System.out.println(secondHighestSalesPerson + " needs to increase his sales " + "by $ " + (diff + 1) + " to make more than " + highestSalesPerson);
+
+        System.out.println("The application is ready to close");
     }
+
 }
 

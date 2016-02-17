@@ -1,11 +1,9 @@
 import java.util.Scanner;
 
-//_______________________________________________________________________
-
-
 public class SalesPerson {
     private double salary, annualSales;
     private String name;
+    public Scanner sc = new Scanner(System.in ); // Creates scanner object
     
     public SalesPerson() { //Constructor
         salary = 30000;
@@ -28,21 +26,17 @@ public class SalesPerson {
         return name;
     }
 
-//Working Methods//*******************************************************************
+//Methods//*******************************************************************
     public void build() {
         System.out.println("Building Salesperson...\n");
-        Scanner sc = new Scanner(System.in ); // Creates scanner object
-        
-        System.out.print("Enter the sales person's name:");        
-        String tempS = sc.nextLine();        
-        setName(tempS);
 
+        System.out.print("Enter the sales person's name:");
+            String tempS = sc.nextLine();
+            setName(tempS);
         
         System.out.print("Enter " + name + "'s annual sales amount: $");
-        double tempD = sc.nextDouble();
-        setAnnualSales(tempD);
-        sc.close();
-
+           double tempD = sc.nextDouble();
+           setAnnualSales(tempD);
     }
 
     public void outputAll() {
