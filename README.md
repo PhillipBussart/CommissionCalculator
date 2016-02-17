@@ -1,5 +1,5 @@
 # CommissionCalculator
-
+VIEW THIS IN RAW OR BLAME.
 This program uses a variety of Java features.  It takes in two vales, a name and a annual sales amount for the amount of salespeople you plan to comepare.  Thes objects are created and then put into an arraylist.  Once finished collecting data, the applicaiton sorts through the array list and finds the highest two grossing salespeople and outputs their differnce between them. 
 
 
