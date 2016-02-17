@@ -9,7 +9,7 @@ This program uses a variety of Java features.  It takes in two vales, a name and
 How many Sales Person would you like to build and compare:
 4
 4
-Building Salesperson...
+Building Salesperson... 
 
 Enter the sales person's name:Jake
 Enter Jake's annual sales amount: $130000
